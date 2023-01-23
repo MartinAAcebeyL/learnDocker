@@ -1,1 +1,8 @@
-35min
+comando docker para eliminar todos los contenedores:    
+        docker rm $(docker ps -a -q)
+
+construir una imagen a partir de un Dockerfile:    
+        docker build -t nombre_imagen .
+
+filtrar imagenes huerfanas:    
+        docker images --filter dangling=true

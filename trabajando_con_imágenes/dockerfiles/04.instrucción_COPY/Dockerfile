@@ -1,7 +1,7 @@
 # Definimos el SO
-FROM centos
+FROM centos:7
 # Instalamos apache para centos (S.O.)
-RUN yum install httpd -y
+RUN yum install -y httpd
 # Copiamos la carpeta en el contenedor
 COPY beryllium /var/www/html
 # Ejecutamos Apache en primer plano

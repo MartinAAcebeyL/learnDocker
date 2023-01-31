@@ -6,3 +6,8 @@ construir una imagen a partir de un Dockerfile:
 
 filtrar imagenes huerfanas:    
         docker images --filter dangling=true
+
+
+Investigar mas sobre
+        * cmd 
+        * Entrypoint

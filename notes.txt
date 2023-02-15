@@ -10,4 +10,6 @@ filtrar imagenes huerfanas:
 
 Investigar mas sobre
         * cmd 
-        * Entrypoint
+        * Entrypoint 
+
+min 35

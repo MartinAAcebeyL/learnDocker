@@ -12,4 +12,3 @@ Investigar mas sobre
         * cmd 
         * Entrypoint 
 
-min 35
